@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dZx8ohU5NUydoZsoncZ3VaptqLb7uPOH2wWQ2Awtdv6CDTl8Pgte5xkQzZRdu381ddLIui0Ej8fJtFXtfvMiUA==",
+  "dgSpecHash": "0zsVX5aWhGkvWDn8dbwvVA8GKx1LlVZRKO1uyckYFM+y2vWV03mj0vyjQpS2V1WUJS6nOUa1KOMdnuO+sGUqQA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\wsei-backend-lab7\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\lab6\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

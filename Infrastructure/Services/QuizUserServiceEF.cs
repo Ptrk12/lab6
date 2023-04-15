@@ -51,47 +51,51 @@ namespace Infrastructure.Services
         public List<QuizItemUserAnswer> GetUserAnswersForQuiz(int quizId, int userId)
         {
             var result = _context.UserAnswers
+                .Include(x => x.QuizItem)
                 .Where(x => x.QuizId == quizId)
                 .Where(x => x.UserId == userId)
                 .Select(x => QuizMappers.FromEntityToUserAnswer(x))
                 .ToList();
 
+
             return result;
         }
-
-        public QuizItemUserAnswer SaveUserAnswerForQuiz(int quizId, int userId, int quizItemId, string answer)
+        public QuizItemUserAnswer SaveUserAnswerForQuiz(int quizId, int quizItemId, int userId, string answer)
         {
-            var quizEntity = _context.Quizzes.Where(x => x.Id == quizId).FirstOrDefault();
-            if (quizEntity is null)
-            {
-                throw new QuizItemNotFoundException($"Quiz with id: {quizId} not found");
-            }
-
-            var item = _context.QuizItems.Where(x => x.Id == quizItemId).FirstOrDefault();
-            if(item is null)
-            {
-                throw new QuizItemNotFoundException($"Quiz item with id: {quizItemId} not found");
-            }
-
             QuizItemUserAnswerEntity entity = new QuizItemUserAnswerEntity()
             {
-                QuizId = quizId,
-                UserAnswer = answer,
                 UserId = userId,
-                QuizItemId = quizItemId
+                QuizItemId = quizItemId,
+                QuizId = quizId,
+                UserAnswer = answer
             };
-
-            var savedEntity = _context.Add(entity).Entity;
-            _context.SaveChanges();
-
-            return new QuizItemUserAnswer()
+            try
             {
-                QuizId = quizId,
-                UserId = userId,
-                Answer = answer,
-                QuizItem = QuizMappers.FromEntityToQuizItem(item),
+                var saved = _context.UserAnswers.Add(entity).Entity;
+                _context.SaveChanges();
+                var quizItemTest = _context.QuizItems.Include(x => x.IncorrectAnswer).Where(x => x.Id == quizItemId).FirstOrDefault();
 
-            };
+
+                return new QuizItemUserAnswer()
+                {
+                    UserId = saved.UserId,
+                    QuizItem = QuizMappers.FromEntityToQuizItem(quizItemTest),
+                    QuizId = saved.QuizId,
+                    Answer = saved.UserAnswer
+                };
+            }
+            catch (DbUpdateException e)
+            {
+                if (e.InnerException.Message.StartsWith("The INSERT"))
+                {
+                    throw new QuizNotFoundException("Quiz, quiz item or user not found. Can't save!");
+                }
+                if (e.InnerException.Message.StartsWith("Violation of"))
+                {
+                    throw new QuizAnswerItemAlreadyExistsException($"{quizId} {quizItemId} {userId} already exists !");
+                }
+                throw new Exception(e.Message);
+            }
         }
     }
 }

@@ -2,9 +2,8 @@ using ApplicationCore.Interfaces;
 using ApplicationCore.Interfaces.QuizUserService;
 using ApplicationCore.Interfaces.Repository;
 using ApplicationCore.Models;
-using Infrastructure.EF;
-using Infrastructure.EF.Services;
 using Infrastructure.Memory.Repository;
+using Infrastructure.Services;
 using Web;
 
 var builder = WebApplication.CreateBuilder(args);

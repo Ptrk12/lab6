@@ -13,7 +13,7 @@ public class QuizDbContext : DbContext
     {
         base.OnConfiguring(optionsBuilder);
         optionsBuilder.UseSqlServer(
-            "Data Source=DESKTOP-BORRVIJ;Initial Catalog=lab7;Integrated Security=True;Pooling=False;TrustServerCertificate=True");
+            "Data Source=DESKTOP-QR36UPA;Initial Catalog=lab7;Integrated Security=True;Pooling=False;TrustServerCertificate=True");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -44,9 +44,9 @@ public class QuizDbContext : DbContext
 
 
         modelBuilder.Entity<QuizItemUserAnswerEntity>()
-            .HasOne<QuizItemEntity>()
+            .HasOne<UserEntity>()
             .WithMany()
-            .HasForeignKey(x => x.QuizItemId);
+            .HasForeignKey(x => x.UserId);
 
         modelBuilder.Entity<UserEntity>()
             .HasData(

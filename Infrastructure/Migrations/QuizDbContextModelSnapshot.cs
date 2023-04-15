@@ -176,9 +176,6 @@ namespace Infrastructure.Migrations
                     b.Property<int>("QuizItemId")
                         .HasColumnType("int");
 
-                    b.Property<int>("QuizItemId1")
-                        .HasColumnType("int");
-
                     b.Property<string>("UserAnswer")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -188,8 +185,6 @@ namespace Infrastructure.Migrations
                     b.HasIndex("QuizId");
 
                     b.HasIndex("QuizItemId");
-
-                    b.HasIndex("QuizItemId1");
 
                     b.ToTable("UserAnswers");
                 });
@@ -340,15 +335,15 @@ namespace Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Infrastructure.Entities.QuizItemEntity", null)
+                    b.HasOne("Infrastructure.Entities.QuizItemEntity", "QuizItem")
                         .WithMany()
                         .HasForeignKey("QuizItemId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Infrastructure.Entities.QuizItemEntity", "QuizItem")
+                    b.HasOne("Infrastructure.Entities.UserEntity", null)
                         .WithMany()
-                        .HasForeignKey("QuizItemId1")
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
