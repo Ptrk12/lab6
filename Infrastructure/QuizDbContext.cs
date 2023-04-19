@@ -1,7 +1,8 @@
 ﻿using Infrastructure.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-public class QuizDbContext : DbContext
+public class QuizDbContext : IdentityDbContext<UserEntity, UserRole, int>
 {
     public DbSet<QuizEntity> Quizzes { get; set; }
     public DbSet<QuizItemEntity> QuizItems { get; set; }
@@ -13,7 +14,7 @@ public class QuizDbContext : DbContext
     {
         base.OnConfiguring(optionsBuilder);
         optionsBuilder.UseSqlServer(
-            "Data Source=DESKTOP-QR36UPA;Initial Catalog=lab7;Integrated Security=True;Pooling=False;TrustServerCertificate=True");
+            "Data Source=BR-11\\SQLEXPRESS;Initial Catalog=lab777;Integrated Security=True;Pooling=False;TrustServerCertificate=True");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -37,6 +38,9 @@ public class QuizDbContext : DbContext
                 new QuizItemAnswerEntity() { Id = 10, Answer = "0" }
             );
 
+        //modelBuilder.Entity<UserEntity>()
+        //    .HasKey(x => x.UserId);
+
         modelBuilder.Entity<QuizItemUserAnswerEntity>()
             .HasOne<QuizEntity>()
             .WithMany()
@@ -48,14 +52,14 @@ public class QuizDbContext : DbContext
             .WithMany()
             .HasForeignKey(x => x.UserId);
 
-        modelBuilder.Entity<UserEntity>()
-            .HasData(
-                new UserEntity()
-                {
-                    UserId = 1,
-                    Email = "testemail@gmail.com",
-                    Password = "123"
-                });
+        //modelBuilder.Entity<UserEntity>()
+        //    .HasData(
+        //        new UserEntity()
+        //        {
+        //            UserId = 1,
+        //            Email = "testemail@gmail.com",
+        //            Password = "123"
+        //        });
 
         modelBuilder.Entity<QuizItemEntity>()
             .HasData(

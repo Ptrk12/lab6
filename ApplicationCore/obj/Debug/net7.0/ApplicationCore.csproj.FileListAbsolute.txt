@@ -10,3 +10,15 @@ C:\Users\Admin\Desktop\lab6\ApplicationCore\obj\Debug\net7.0\ApplicationCore.dll
 C:\Users\Admin\Desktop\lab6\ApplicationCore\obj\Debug\net7.0\refint\ApplicationCore.dll
 C:\Users\Admin\Desktop\lab6\ApplicationCore\obj\Debug\net7.0\ApplicationCore.pdb
 C:\Users\Admin\Desktop\lab6\ApplicationCore\obj\Debug\net7.0\ref\ApplicationCore.dll
+D:\Users\Patryk.Bajak\Desktop\jwt\lab6\ApplicationCore\bin\Debug\net7.0\ApplicationCore.deps.json
+D:\Users\Patryk.Bajak\Desktop\jwt\lab6\ApplicationCore\bin\Debug\net7.0\ApplicationCore.dll
+D:\Users\Patryk.Bajak\Desktop\jwt\lab6\ApplicationCore\bin\Debug\net7.0\ApplicationCore.pdb
+D:\Users\Patryk.Bajak\Desktop\jwt\lab6\ApplicationCore\obj\Debug\net7.0\ApplicationCore.csproj.AssemblyReference.cache
+D:\Users\Patryk.Bajak\Desktop\jwt\lab6\ApplicationCore\obj\Debug\net7.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Patryk.Bajak\Desktop\jwt\lab6\ApplicationCore\obj\Debug\net7.0\ApplicationCore.AssemblyInfoInputs.cache
+D:\Users\Patryk.Bajak\Desktop\jwt\lab6\ApplicationCore\obj\Debug\net7.0\ApplicationCore.AssemblyInfo.cs
+D:\Users\Patryk.Bajak\Desktop\jwt\lab6\ApplicationCore\obj\Debug\net7.0\ApplicationCore.csproj.CoreCompileInputs.cache
+D:\Users\Patryk.Bajak\Desktop\jwt\lab6\ApplicationCore\obj\Debug\net7.0\ApplicationCore.dll
+D:\Users\Patryk.Bajak\Desktop\jwt\lab6\ApplicationCore\obj\Debug\net7.0\refint\ApplicationCore.dll
+D:\Users\Patryk.Bajak\Desktop\jwt\lab6\ApplicationCore\obj\Debug\net7.0\ApplicationCore.pdb
+D:\Users\Patryk.Bajak\Desktop\jwt\lab6\ApplicationCore\obj\Debug\net7.0\ref\ApplicationCore.dll

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\lab6\\ConsoleGRPCClient\\ConsoleGRPCClient.csproj": {}
+    "D:\\Users\\Patryk.Bajak\\Desktop\\jwt\\lab6\\ConsoleGRPCClient\\ConsoleGRPCClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\lab6\\ConsoleGRPCClient\\ConsoleGRPCClient.csproj": {
+    "D:\\Users\\Patryk.Bajak\\Desktop\\jwt\\lab6\\ConsoleGRPCClient\\ConsoleGRPCClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\lab6\\ConsoleGRPCClient\\ConsoleGRPCClient.csproj",
+        "projectUniqueName": "D:\\Users\\Patryk.Bajak\\Desktop\\jwt\\lab6\\ConsoleGRPCClient\\ConsoleGRPCClient.csproj",
         "projectName": "ConsoleGRPCClient",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\lab6\\ConsoleGRPCClient\\ConsoleGRPCClient.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\lab6\\ConsoleGRPCClient\\obj\\",
+        "projectPath": "D:\\Users\\Patryk.Bajak\\Desktop\\jwt\\lab6\\ConsoleGRPCClient\\ConsoleGRPCClient.csproj",
+        "packagesPath": "D:\\Users\\Patryk.Bajak\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Patryk.Bajak\\Desktop\\jwt\\lab6\\ConsoleGRPCClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\Patryk.Bajak\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
