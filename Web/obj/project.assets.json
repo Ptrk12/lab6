@@ -10967,19 +10967,19 @@
     ]
   },
   "packageFolders": {
-    "D:\\Users\\Patryk.Bajak\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\Patryk.Bajak\\Desktop\\jwt\\lab6\\Web\\Web.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\backend-lab\\lab6\\Web\\Web.csproj",
       "projectName": "Web",
-      "projectPath": "D:\\Users\\Patryk.Bajak\\Desktop\\jwt\\lab6\\Web\\Web.csproj",
-      "packagesPath": "D:\\Users\\Patryk.Bajak\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\Patryk.Bajak\\Desktop\\jwt\\lab6\\Web\\obj\\",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\backend-lab\\lab6\\Web\\Web.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\backend-lab\\lab6\\Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "D:\\Users\\Patryk.Bajak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10993,11 +10993,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Users\\Patryk.Bajak\\Desktop\\jwt\\lab6\\ApplicationCore\\ApplicationCore.csproj": {
-              "projectPath": "D:\\Users\\Patryk.Bajak\\Desktop\\jwt\\lab6\\ApplicationCore\\ApplicationCore.csproj"
+            "C:\\Users\\Admin\\Desktop\\backend-lab\\lab6\\ApplicationCore\\ApplicationCore.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\backend-lab\\lab6\\ApplicationCore\\ApplicationCore.csproj"
             },
-            "D:\\Users\\Patryk.Bajak\\Desktop\\jwt\\lab6\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\Users\\Patryk.Bajak\\Desktop\\jwt\\lab6\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Admin\\Desktop\\backend-lab\\lab6\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\backend-lab\\lab6\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -11052,7 +11052,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

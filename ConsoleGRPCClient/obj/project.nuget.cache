@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "PvYE7JcHBQCOKb+KdHr3nLXxV7Y9YihFP91vgK1qwwNaLFBPiT+3ioYh23AoRzmk/Lg02zOvbfEUxiG6PtqT3Q==",
+  "dgSpecHash": "6UZzOi24bLIiGbaeAGHV4z71QDZmyocIIkxixm7PPiDcnQixxy8xYsH07NoT4q5U2g57BiGRq95DNGDwqnCDlQ==",
   "success": true,
-  "projectFilePath": "D:\\Users\\Patryk.Bajak\\Desktop\\jwt\\lab6\\ConsoleGRPCClient\\ConsoleGRPCClient.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\backend-lab\\lab6\\ConsoleGRPCClient\\ConsoleGRPCClient.csproj",
   "expectedPackageFiles": [
-    "D:\\Users\\Patryk.Bajak\\.nuget\\packages\\google.protobuf\\3.22.1\\google.protobuf.3.22.1.nupkg.sha512",
-    "D:\\Users\\Patryk.Bajak\\.nuget\\packages\\grpc.core.api\\2.52.0\\grpc.core.api.2.52.0.nupkg.sha512",
-    "D:\\Users\\Patryk.Bajak\\.nuget\\packages\\grpc.net.client\\2.52.0\\grpc.net.client.2.52.0.nupkg.sha512",
-    "D:\\Users\\Patryk.Bajak\\.nuget\\packages\\grpc.net.common\\2.52.0\\grpc.net.common.2.52.0.nupkg.sha512",
-    "D:\\Users\\Patryk.Bajak\\.nuget\\packages\\grpc.tools\\2.52.0\\grpc.tools.2.52.0.nupkg.sha512",
-    "D:\\Users\\Patryk.Bajak\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
-    "D:\\Users\\Patryk.Bajak\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+    "C:\\Users\\Admin\\.nuget\\packages\\google.protobuf\\3.22.1\\google.protobuf.3.22.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\grpc.core.api\\2.52.0\\grpc.core.api.2.52.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\grpc.net.client\\2.52.0\\grpc.net.client.2.52.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\grpc.net.common\\2.52.0\\grpc.net.common.2.52.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\grpc.tools\\2.52.0\\grpc.tools.2.52.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
   ],
   "logs": []
 }

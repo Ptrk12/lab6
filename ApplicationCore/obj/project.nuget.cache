@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oXbxKruDJ+7hzI5DUovMD8HUTCEBh089crEI2fwcNushhhZHXgqqtDCxqrzNgl+9mw4ENhHtz6BiUtEIjoYUeg==",
+  "dgSpecHash": "bPAVx17nkuRrslarfPcBNED/IU1KNcW+PQPYPY3pMDn+a3DTDK3KubiwiqDP4cK+sxKp6JCGdpFCHbOaCt7b2g==",
   "success": true,
-  "projectFilePath": "D:\\Users\\Patryk.Bajak\\Desktop\\jwt\\lab6\\ApplicationCore\\ApplicationCore.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\backend-lab\\lab6\\ApplicationCore\\ApplicationCore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

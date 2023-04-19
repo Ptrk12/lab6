@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Patryk.Bajak\\Desktop\\jwt\\lab6\\PdfGenerationService\\PdfGenerationService.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\backend-lab\\lab6\\PdfGenerationService\\PdfGenerationService.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Patryk.Bajak\\Desktop\\jwt\\lab6\\PdfGenerationService\\PdfGenerationService.csproj": {
+    "C:\\Users\\Admin\\Desktop\\backend-lab\\lab6\\PdfGenerationService\\PdfGenerationService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Patryk.Bajak\\Desktop\\jwt\\lab6\\PdfGenerationService\\PdfGenerationService.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\backend-lab\\lab6\\PdfGenerationService\\PdfGenerationService.csproj",
         "projectName": "PdfGenerationService",
-        "projectPath": "D:\\Users\\Patryk.Bajak\\Desktop\\jwt\\lab6\\PdfGenerationService\\PdfGenerationService.csproj",
-        "packagesPath": "D:\\Users\\Patryk.Bajak\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Patryk.Bajak\\Desktop\\jwt\\lab6\\PdfGenerationService\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\backend-lab\\lab6\\PdfGenerationService\\PdfGenerationService.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\backend-lab\\lab6\\PdfGenerationService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "D:\\Users\\Patryk.Bajak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

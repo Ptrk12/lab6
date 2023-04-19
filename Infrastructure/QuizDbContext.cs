@@ -14,7 +14,7 @@ public class QuizDbContext : IdentityDbContext<UserEntity, UserRole, int>
     {
         base.OnConfiguring(optionsBuilder);
         optionsBuilder.UseSqlServer(
-            "Data Source=BR-11\\SQLEXPRESS;Initial Catalog=lab777;Integrated Security=True;Pooling=False;TrustServerCertificate=True");
+            "Data Source=DESKTOP-BORRVIJ;Initial Catalog=lab7;Integrated Security=True;Pooling=False;TrustServerCertificate=True");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
