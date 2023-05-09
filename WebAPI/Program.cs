@@ -3,6 +3,8 @@ using ApplicationCore.Interfaces.QuizUserService;
 using ApplicationCore.Interfaces.Repository;
 using ApplicationCore.Models;
 using Infrastructure.Memory.Repository;
+using Infrastructure.MongoDB.Entities;
+using Infrastructure.MongoDB;
 using Infrastructure.Services;
 using Microsoft.OpenApi.Models;
 using Web;
@@ -26,6 +28,8 @@ builder.Services.ConfigureIdentity();
 builder.Services.ConfigureJWT(new JwtSettings(builder.Configuration));
 builder.Services.ConfigureCors();
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.Configure<MongoDBSettings>(builder.Configuration.GetSection("MongoDB"));
+builder.Services.AddSingleton<QuizUserServiceMongoDB>();
 builder.Services.AddSwaggerGen(options =>
 {
     options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme

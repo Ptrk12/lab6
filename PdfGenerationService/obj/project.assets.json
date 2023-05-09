@@ -5040,11 +5040,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\backend-lab\\lab6\\PdfGenerationService\\PdfGenerationService.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\lab6\\PdfGenerationService\\PdfGenerationService.csproj",
       "projectName": "PdfGenerationService",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\backend-lab\\lab6\\PdfGenerationService\\PdfGenerationService.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\lab6\\PdfGenerationService\\PdfGenerationService.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\backend-lab\\lab6\\PdfGenerationService\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\lab6\\PdfGenerationService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

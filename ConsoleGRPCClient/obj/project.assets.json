@@ -297,11 +297,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\backend-lab\\lab6\\ConsoleGRPCClient\\ConsoleGRPCClient.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\lab6\\ConsoleGRPCClient\\ConsoleGRPCClient.csproj",
       "projectName": "ConsoleGRPCClient",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\backend-lab\\lab6\\ConsoleGRPCClient\\ConsoleGRPCClient.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\lab6\\ConsoleGRPCClient\\ConsoleGRPCClient.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\backend-lab\\lab6\\ConsoleGRPCClient\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\lab6\\ConsoleGRPCClient\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
